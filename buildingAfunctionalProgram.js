@@ -3,7 +3,7 @@ function consoleStyler(color, background, fontSize, txt) {
     var message = "%c" + txt;
     var style = `color: ${color};`;
     style += `background: ${background};`;
-    style = + `font-size: ${fontSize};`;
+    style += `font-size: ${fontSize};`;
     
     console.log(message, style);
 }
@@ -26,9 +26,9 @@ function celebrateStyler(reason) {
 }
 
 // Task 3: Run both the consoleStyler and the celebrateStyler functions
-consoleStyler('#1d5c63', '#ede6db', '40px', 'Congrats!')
+consoleStyler("#1d5c63", "#ede6db", "40px", "Congrats!");
 
-celebrateStyler('birthday')
+celebrateStyler('birthday');
 
 // Task 4: Insert a congratulatory and custom message
 function styleAndCelebrate(color, background, fontSize, txt, reason) {
@@ -37,4 +37,4 @@ function styleAndCelebrate(color, background, fontSize, txt, reason) {
 }
 // Call styleAndCelebrate
 
-styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions')
+styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
