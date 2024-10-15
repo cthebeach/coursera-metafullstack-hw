@@ -11,7 +11,7 @@ class Vehicle {
 }
 
 class Motorcycle extends Vehicle {
-    wheels = 2;
+    this.wheels = 2;
     useHorn(){
         super.useHorn()
         console.log("vroom, vroom")
